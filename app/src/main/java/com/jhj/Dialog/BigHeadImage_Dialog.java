@@ -84,5 +84,12 @@ public class BigHeadImage_Dialog extends Dialog implements android.view.View.OnC
 			break;
 		}
 	}
+
+    /**
+     *
+     */
+	public void getid(){
+
+    }
 	
 }
