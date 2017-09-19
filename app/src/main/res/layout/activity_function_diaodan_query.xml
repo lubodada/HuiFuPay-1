@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F49514"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ybb_vparrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="条件查询"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_starttime"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ye_button_carryunpass"
+        android:hint="选择开始时间"
+        android:textColor="#FC9B18"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_stoptime"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ye_button_carryunpass"
+        android:hint="选择结束时间"
+        android:textColor="#FC9B18"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_endtime"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ye_button_carryunpass"
+        android:hint="选择截止时间"
+        android:textColor="#FC9B18"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_state"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ye_button_carryunpass"
+        android:hint="选择处理状态"
+        android:textColor="#FC9B18"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/com_ok"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/payitem_button_style"
+        android:scaleType="centerCrop"
+        android:text="查询"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+</LinearLayout>

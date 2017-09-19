@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F1F1F1"
+    android:gravity="center_horizontal">
+    
+    <RelativeLayout 
+        android:id="@+id/re_bank"
+        android:layout_width="332dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:background="@drawable/bank_jianshe"
+        android:layout_marginTop="8dp">
+        
+        <ImageView 
+            android:id="@+id/img_setdefault_jiecard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_setdefault_jiecard"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"/>
+        
+        <TextView 
+            android:id="@+id/bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="22dp"
+            android:text="中国建设银行"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"/>
+        <TextView 
+            android:id="@+id/bankcard_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="22dp"
+            android:text="6236*******1586"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F49514"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="结算类型"
+            android:textColor="#FFFFFF" 
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_D0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="D0实时结算"
+            android:textColor="#000000" 
+            android:textSize="16sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D9DEE3" />
+
+        <TextView
+            android:id="@+id/tv_T1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="T+1结算"
+            android:textColor="#000000" 
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

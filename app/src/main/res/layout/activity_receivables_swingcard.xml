@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/swingcard"
+        android:layout_width="266dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/payitem_button_style"
+        android:scaleType="centerCrop"
+        android:text="刷卡收款"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#DFDFDF"
+    android:gravity="center_horizontal">
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F49514"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ybb_vparrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="完善资料"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:id="@+id/data_geti"
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="25dp">
+        
+        <ImageView 
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/img_geti"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人商户"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="需要上传身份证、手持身份证合照、结算银行卡等证件照"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/data_qiye"
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="25dp">
+        
+        <ImageView 
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/img_qiye"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="企业商户"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="需要上传营业执照、开户许可证、税务登记证、组织机构代码证等证件照"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"/>
+        
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示信息：请根据实际情况选择对应的商户类型"
+        android:padding="10dp"
+        android:textSize="14dp"
+        android:textColor="@color/red"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/tv_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="翼开店密码键盘,保障您的支付安全"
+        android:textColor="#F49514"
+        android:textSize="12sp" />
+    <!-- 输入键盘 -->
+
+    <GridView
+        android:id="@+id/gv_keybord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_keyword"
+        android:background="#C0C0C0"
+        android:gravity="bottom"
+        android:horizontalSpacing="0.5dp"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="0.5dp" />
+
+</RelativeLayout>

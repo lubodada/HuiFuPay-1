@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jhjpay.zyb"
+    android:versionCode="1"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="com.pos.permission.ACCESSORY_DATETIME" />
+    <uses-permission android:name="com.pos.permission.ACCESSORY_LED" />
+    <uses-permission android:name="com.pos.permission.ACCESSORY_BEEP" />
+    <uses-permission android:name="com.pos.permission.CARD_READER_ICC" />
+    <uses-permission android:name="com.pos.permission.CARD_READER_PICC" />
+    <uses-permission android:name="com.pos.permission.CARD_READER_MAG" />
+    <uses-permission android:name="com.pos.permission.COMMUNICATION" />
+    <uses-permission android:name="com.pos.permission.PRINTER" />
+    <uses-permission android:name="com.pos.permission.SECURITY" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- SD卡权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!--分享权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+
+    <application
+        android:name="com.jhj.imagecycleview.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <uses-library
+            android:name="com.pos.sdk"
+            android:required="false" />
+
+        <activity
+            android:name="com.example.Main.StartActivityFram"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" 
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.Main.MipcaActivityCapture"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.Main.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.Main.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.Main.QuickPayActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.example.Main.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.example.Main.TradingPayActivity"
+            android:label="@string/title_activity_test" 
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.jhj.Function.TransactionRecordActivity"
+            android:label="@string/title_activity_test" 
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.example.Main.QRcode_Activity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <service android:name="com.jhj.servrce.UpdateService" >
+        </service>
+
+        <activity
+            android:name="com.jhj.ViewPagerAndTabhost.MainActivity_TabHost"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.WalletActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.imagecycleview.ImageCycleActivity">
+        </activity>
+        <activity
+            android:name="com.example.Main.MyCollectionCodeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.More_Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.Cashier_Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.PhoneRechargeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.PhoneRecharge_HistoryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.PhoneRechargeDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.SingleTransferActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.SingleTransfer_Query_Activity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.jhj.Function.MyServiceProviderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.ApplyCreditCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.ProductActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.ShopMallActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.ShopMall_OrderLocationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.ShopMall_OrderDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.ShopMall_OrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.Function.RecommendActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.PerfectDataActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.JieSuan_Information_Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.ShangHu_Information_Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.ShangHuInfo_UploadPicturesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.Main.RegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.Main.ZhuCeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.SettingUpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.ChangePhoneNumberActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.LoginPwdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.TradePwdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.ContactUsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.WebsiteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.SetUpActivity.AboutUsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.TiXianActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.JieSuan_BankCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.JieSuan_AddBankCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.InterestIncomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.MessageCenterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.MessageCenterActivity_ByTime"
+            android:screenOrientation="portrait" 
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.NoticeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.NoticeDetailsByWebView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.RateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.RechargeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.PaymentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.PaymentCodeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.BalanceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.Transfer_PayeeInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.WalletActivity.Transfer_TransferAmountActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.wallet.FragmentActivity.WalletDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.jhj.wallet.FragmentActivity.WalletDetail_TransactionDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent1106401860" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="com.jhjpay.zyb.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 调用新浪原生SDK，需要注册的回调activity -->
+        <intent-filter>
+            <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        <!-- 填写您从Mob开发者后台中得到的Appkey和AppSecret -->
+        <meta-data
+            android:name="Mob-AppKey"
+            android:value="20cc10cf336ad" />
+        <meta-data
+            android:name="Mob-AppSecret"
+            android:value="bcf2bf3b2fc6df6de06c3f1d11dcacd5" />
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 访问网络的权限 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+</manifest>

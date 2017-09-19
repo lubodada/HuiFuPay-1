@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-Wechat-Favorite-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0921395dfd3db533c2734d2f0444a2bd958e33b5">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-3.0.2_391ec856e78edfbbda44505f35f43dffe019908e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\MobTools-2017.0823.1556.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6b6ce9c5eda36d048495f211d0f8215825ff0c10">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\MobTools-2017.0823.1556_2b0d1e676bb4eaad7707e3d32ba5bb5c3867ebd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-Core-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="459aa9a70852adc49f9777ebb8c0d2ab3bb2e61e">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-3.0.2_96bee921be48cdb4335b377ab42514baf06f374c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-QZone-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0fbcab8972cd17dd0311c149879e9d26a663360e">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-3.0.2_15435775a430f26cee42cde77542d7c21094b3f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2-SNAPSHOT-with-sources_199c882430670fa978b4552e58b31f0c395770b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-ShortMessage-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4812ddc2f513e8e3cfa3cfbf460c8936e9477780">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-3.0.2_8c3a9e5db5cd8295db41519aa9a3757e69de1ce7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-Wechat-Core-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6f570ad68a3921eee6130355b70d649813284840">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-3.0.2_e61e9cf99447e5b81068886316cbf4e257ce4400.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\bw_pos_sdk2.0.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3b759aef6e7db9c721f475a141c48daa7007156b">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\bw_pos_sdk2.0.17_1beb040c863ad83175522de9b7770c468c633a75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-QQ-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f951f1f14a79b111752751bc8e6ade08990e97f1">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-3.0.2_10f0d85aaae3d17c9e738644569bf19c19dbf86e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-Wechat-Moments-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f467d62500799d528aafd2707acec26ee2d48df8">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-3.0.2_993a38588a82a7680d8a24eab97f89deb44c8c56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-SinaWeibo-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3e3efc350537d06c988ddf7b1fe230076b9f9247">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-3.0.2_27be507660104ff7c4dbb8a7c2dd043c54b2c31c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-Email-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4412236748215cf1b0dc18e9b9f895d7007007c">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-Email-3.0.2_4e3489401f292a7985adec8032d5cab7cb84316b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\ShareSDK-Wechat-3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f21e38441156a752f8cc17d441806d306cf08ab9">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-3.0.2_0a0586d630ef372043a302eafd102fbaa981ffaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\core4.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3e070d20fe4c3c5d06d5eb3465fb5fb621edc816">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\core4.7.5_6cf698eb4c51aee55d6de99c4f9d07103e3dac5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\huifupay\HuiFuPay\app\libs\MobCommons-2017.0823.1556.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e62ef9cdfc6c50cda42438d710b43616cd1d9321">
+        <dex dex="G:\huifupay\HuiFuPay\app\build\intermediates\pre-dexed\debug\MobCommons-2017.0823.1556_736ad474f2b0a373902e6fefe3dd01265217edfb.jar" />
+    </item>
+
+</items>
